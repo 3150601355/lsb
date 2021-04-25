@@ -1,0 +1,58 @@
+#idImageFrame{
+    background-color:#ff000000;
+    border: 0px solid #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.imageBiao{
+    background-color:#001aff00;
+    border: 0px solid #000;
+    left:95px;
+    top:152px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+.imageBiao .smallImage{
+    width: 48px;
+    height: 48px;
+    border: 0px;
+}
+
+.imageLi{
+    background-color:#001aff00;
+    border: 0px solid #000;
+    left:242px;
+    top:152px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+.imageLi .smallImage{
+    width: 48px;
+    height: 48px;
+}
+
+.imageMix{
+    background-color:#001aff00;
+    border: 0px solid #000;
+    left:416px;
+    top:152px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+.imageMix .smallImage{
+    width: 48px;
+    height: 48px;
+}
+
+/* image src=''时不显示边框 */
+img[src=""]{
+    opacity: 0;
+  }
+
+
